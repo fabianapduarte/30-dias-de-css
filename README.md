@@ -15,7 +15,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 ## 🖥 Projetos desenvolvidos
 
-* [Dia 01 - Ícone de mídia social em camadas](#day1)
+* [Dia 01 - Ícones de mídias sociais em camadas](#day1)
 * Dia 02 - Loader animado
 * Dia 03 - Mudança de cor de texto quando entra em outra div
 * Dia 04 - Botão com efeito
@@ -54,7 +54,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * skew()
   * rotate()
   * nth-child()
-  * Criação das camadas com a tag `<span></span>` e com o hover
+  * Criação das camadas com a tag `<span></span>` e com o `:hover`
 
 ---
 Em construção...
