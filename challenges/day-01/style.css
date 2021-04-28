@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #F2F2F2;
+  background-color: #F4F4F4;
 }
 
 main {
@@ -16,91 +16,117 @@ main {
   height: 100vh;
 }
 
-.icon {
-  width: 70px;
-  height: 70px;
-  
+.card-icon {
+  width: 80px;
+  height: 80px;
+
+  position: relative;
   cursor: pointer;
-
-  transform: rotate(335deg) skew(25deg);
 }
 
-.icon:not(.icon:last-of-type) {
-  margin-right: 100px;
+.card-icon:nth-child(1) {
+  transform: translate(-80%, 110%) rotate(-20deg) skew(7deg);
 }
 
-.icon img, .shadows span {
+.card-icon:nth-child(2) {
+  transform: translate(-40%, 55%) rotate(-20deg) skew(7deg);
+}
+
+.card-icon:nth-child(3) {
+  transform: translate(0, 0) rotate(-20deg) skew(7deg);
+}
+
+.card-icon:nth-child(4) {
+  transform: translate(40%, -55%) rotate(-20deg) skew(7deg);
+}
+
+.card-icon:nth-child(5) {
+  transform: translate(80%, -110%) rotate(-20deg) skew(7deg);
+}
+
+.card-icon .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #E0E0E0;
+}
+
+.card-icon .icon i {
+  font-size: 24px;
+  color: #616161;
+  transition: color .7s;
+}
+
+.card-icon .icon, .layers span {
   width: 100%;
   height: 100%;
 
   border-radius: 10px;
-
-  transition: transform .5s, opacity .7s;
+  transition: transform .5s, opacity .7s, background-color .7s;
 }
 
-.shadows span {
+.layers span {
   position: absolute;
   top: 0;
   left: 0;
   z-index: -1;
-  
   opacity: 0;
 }
 
-.icon:nth-child(1) .shadows span {
+/*
+ * HOVER EFFECT
+ * 
+ * COLORS
+ */
+
+.card-icon:hover#facebook .icon,
+.card-icon:hover#facebook .layers span {
   background-color: #4267B2;
 }
 
-.icon:nth-child(2) .shadows span {
-  background-color: #2867B2;
+.card-icon:hover#whatsapp .icon,
+.card-icon:hover#whatsapp .layers span {
+  background-color: #4AC959;
 }
 
-.icon:nth-child(3) .shadows span {
-  background-color: #0D0D0D;
+.card-icon:hover#instagram .icon,
+.card-icon:hover#instagram .layers span {
+  background-color: #E1306C;
 }
 
-.icon:nth-child(4) .shadows span {
+.card-icon:hover#twitter .icon,
+.card-icon:hover#twitter .layers span {
   background-color: #1DA1F2;
 }
 
-.icon:nth-child(5) .shadows span {
-  background-color: #DB4437;
+.card-icon:hover#linkedin .icon,
+.card-icon:hover#linkedin .layers span {
+  background-color: #2867B2;
 }
 
-.icon:hover img {
-  transform: translate(32px, -32px);
+.card-icon:hover .icon i {
+  color: #fff;
 }
 
-.icon:hover .shadows span:nth-child(1) {
+/*
+ * TRANSLATE AND OPACITY
+ */
+
+.card-icon:hover .icon {
   transform: translate(24px, -24px);
-  opacity: 0.8;
 }
 
-.icon:hover .shadows span:nth-child(2) {
+.card-icon:hover .layers span:nth-child(1) {
   transform: translate(16px, -16px);
   opacity: 0.6;
 }
 
-.icon:hover .shadows span:nth-child(3) {
+.card-icon:hover .layers span:nth-child(2) {
   transform: translate(8px, -8px);
   opacity: 0.4;
 }
 
-.icon:hover .shadows span:nth-child(4) {
+.card-icon:hover .layers span:nth-child(3) {
   opacity: 0.2;
-}
-
-@media (max-width: 830px) {
-  main {
-    flex-direction: column;
-  }
-
-  .icon {
-    margin-right: 0 !important;
-    margin-top: 70px;
-  }
-
-  .icon:last-of-type {
-    margin-bottom: 70px;
-  }
 }
