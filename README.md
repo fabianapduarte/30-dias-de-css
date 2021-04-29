@@ -16,7 +16,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 ## 🖥 Projetos desenvolvidos
 
 * [Dia 01 - Ícones de mídias sociais em camadas](#day1)
-* Dia 02 - Loader animado
+* [Dia 02 - Loader animado](#day2)
 * Dia 03 - Mudança de cor de texto quando entra em outra div
 * Dia 04 - Botão com efeito
 * Dia 05 - Efeito pulsar
@@ -55,6 +55,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * rotate()
   * nth-child()
   * Criação das camadas com a tag `<span></span>` e com o `:hover`
+
+### <div id="day2">Loader animado</div>
+
+![](./.github/day02.gif)
+
+**O que aprendi:**
+  * Propriedade `border-top`
+  * Criação de animações
 
 ---
 Em construção...
