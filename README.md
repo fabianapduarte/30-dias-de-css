@@ -19,7 +19,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 02 - Loader animado](#day2)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#day3)
 * [Dia 04 - Botão com animação na borda](#day4)
-* Dia 05 - Efeito pulsar
+* [Dia 05 - Botão com efeito de pulsar](#day5)
 * Dia 06 - Efeito lightning text
 * Dia 07 - Preloader animado
 * Dia 08 - Coração batendo
@@ -85,6 +85,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
     * `stroke-width`
     * **`stroke-dasharray`**
     * **`stroke-dashoffset`**
+
+### <div id="day5">Botão com efeito de pulsar</div>
+
+![](./.github/day05.gif)
+
+**O que aprendi:**
+  * Animação com `box-shadow`
 
 ---
 Em construção...
