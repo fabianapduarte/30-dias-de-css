@@ -18,7 +18,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 01 - Ícones de mídias sociais em camadas](#day1)
 * [Dia 02 - Loader animado](#day2)
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#day3)
-* Dia 04 - Botão com efeito
+* [Dia 04 - Botão com animação na borda](#day4)
 * Dia 05 - Efeito pulsar
 * Dia 06 - Efeito lightning text
 * Dia 07 - Preloader animado
@@ -72,6 +72,19 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * Efeito de marquee com CSS
   * Propriedade `mix-blend-mode`
   * Animação com `translateX()`
+
+### <div id="day4">Botão com animação na borda</div>
+
+![](./.github/day04.gif)
+
+**O que aprendi:**
+  * `::before` e `::after`
+  * Manipular elementos SVG com as tags `<svg>` e `<rect>`
+  * Propriedades CSS para manipular elementos SVG:
+    * `stroke`
+    * `stroke-width`
+    * **`stroke-dasharray`**
+    * **`stroke-dashoffset`**
 
 ---
 Em construção...
