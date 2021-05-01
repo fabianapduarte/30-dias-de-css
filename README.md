@@ -10,14 +10,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 ## 📋 Regras
 
 * Realizar um projeto por dia;
-* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, Linkedin etc.) usando a hashtag #30diasDeCSS;
+* Compartilhe seu progresso nas mídias sociais (Twitter, Facebook, LinkedIn etc.) usando a hashtag #30diasDeCSS;
 * O projeto deve ser concluído até 23:59.
 
 ## 🖥 Projetos desenvolvidos
 
 * [Dia 01 - Ícones de mídias sociais em camadas](#day1)
 * [Dia 02 - Loader animado](#day2)
-* Dia 03 - Mudança de cor de texto quando entra em outra div
+* [Dia 03 - Mudança de cor de texto quando entra em outra div](#day3)
 * Dia 04 - Botão com efeito
 * Dia 05 - Efeito pulsar
 * Dia 06 - Efeito lightning text
@@ -36,7 +36,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * Dia 19 - Efeitos de animação de fundo de partículas
 * Dia 20 - Botão com efeito
 * Dia 21 - Esferas quicando
-* Dia 22 - Icones com efeito
+* Dia 22 - Ícones com efeito
 * Dia 23 - Botão com efeito hover
 * Dia 24 - Preloader animado
 * Dia 25 - Checkbox animado
@@ -51,9 +51,9 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 ![](./.github/day01.gif)
 
 **O que aprendi:**
-  * skew()
-  * rotate()
-  * nth-child()
+  * `skew()`
+  * `rotate()`
+  * `nth-child()`
   * Criação das camadas com a tag `<span></span>` e com o `:hover`
 
 ### <div id="day2">Loader animado</div>
@@ -63,6 +63,15 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Propriedade `border-top`
   * Criação de animações
+
+### <div id="day3">Mudança de cor de texto quando entra em outra div</div>
+
+![](./.github/day03.gif)
+
+**O que aprendi:**
+  * Efeito de marquee com CSS
+  * Propriedade `mix-blend-mode`
+  * Animação com `translateX()`
 
 ---
 Em construção...
