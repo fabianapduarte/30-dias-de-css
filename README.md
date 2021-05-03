@@ -20,7 +20,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 03 - Mudança de cor de texto quando entra em outra div](#day3)
 * [Dia 04 - Botão com animação na borda](#day4)
 * [Dia 05 - Botão com efeito de pulsar](#day5)
-* Dia 06 - Efeito lightning text
+* [Dia 06 - Efeito lightning text](#day6)
 * Dia 07 - Preloader animado
 * Dia 08 - Coração batendo
 * Dia 09 - Pendulo de Newton
@@ -92,6 +92,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Animação com `box-shadow`
+
+### <div id="day6">Efeito lightning text</div>
+
+![](./.github/day06.gif)
+
+**O que aprendi:**
+  * Animação com delay
+  * `text-shadow`
 
 ---
 Em construção...
