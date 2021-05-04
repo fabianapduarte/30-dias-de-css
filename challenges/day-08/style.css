@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f8ebea;
+}
+
+.icon {
+  font-size: 8em;
+  color: #BF3F34;
+
+  animation: beat 1.5s ease infinite;
+}
+
+.icon:hover {
+  animation-play-state: paused;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+
+  12.5% {
+    transform: scale(0.9);
+  }
+
+  25% {
+    transform: scale(0.95);
+  }
+
+  50% {
+    transform: scale(0.9);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
