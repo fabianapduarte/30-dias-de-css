@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FAFAFA;
+}
+
+.loader {
+  display: flex;
+}
+
+.box, .box::before {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.box {
+  transform: rotate(45deg);
+  animation: spin 2.4s ease-in-out infinite;
+}
+
+.box:not(.box:last-of-type) {
+  margin-right: 50px;
+}
+
+.box::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -70px;
+  opacity: 0;
+  
+  animation: illusion 2.4s ease-in-out infinite;
+}
+
+/* BOX COLORS */
+.box:nth-child(1), 
+.box:nth-child(1)::before {
+  background-color: #66545e;
+}
+
+.box:nth-child(2), 
+.box:nth-child(2)::before {
+  background-color: #aa6f73;
+}
+
+.box:nth-child(3), 
+.box:nth-child(3)::before {
+  background-color: #eea990;
+}
+
+.box:nth-child(4), 
+.box:nth-child(4)::before {
+  background-color: #f6e0b5;
+}
+
+/* DELAY IN ANIMATION */
+.box:nth-child(1)::before,
+.box:nth-child(1) {
+  animation-delay: 0.6s;
+}
+
+.box:nth-child(2)::before,
+.box:nth-child(2) {
+  animation-delay: 1.2s;
+}
+
+.box:nth-child(3)::before,
+.box:nth-child(3) {
+  animation-delay: 1.8s;
+}
+
+.box:nth-child(4)::before,
+.box:nth-child(4) {
+  animation-delay: 2.4s;
+}
+
+/* ANIMATIONS */
+@keyframes spin {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  20%, 100% {
+    transform: rotate(135deg);
+  }
+}
+
+@keyframes illusion {
+  0%, 25% {
+    opacity: 1;
+  }
+
+  25.10%, 100% {
+    opacity: 0;
+  }
+}
