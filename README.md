@@ -22,7 +22,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 05 - Botão com efeito de pulsar](#day5)
 * [Dia 06 - Efeito lightning text](#day6)
 * [Dia 07 - Preloader animado](#day7)
-* Dia 08 - Coração batendo
+* [Dia 08 - Coração batendo](#day8)
 * Dia 09 - Pendulo de Newton
 * Dia 10 - Animação texto alternando
 * Dia 11 - Botão com efeito hover
@@ -108,6 +108,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Animação com `::before` e delay
   * Porcentagem no `@keyframes`
+
+### <div id="day8">Coração batendo</div>
+
+![](./.github/day08.gif)
+
+**O que aprendi:**
+  * Animação com a função `scale()` da propriedade `transform` do CSS
 
 ---
 Em construção...
