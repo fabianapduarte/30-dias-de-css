@@ -22,15 +22,11 @@ main {
   pointer-events: none;
   color: #EAD7FB;
   opacity: 0.3;
-  animation: lightning 4s linear forwards;
+  animation: lightning 4s ease-in-out forwards;
 }
 
 .text span:not(.text span:last-of-type) {
   margin-right: 16px;
-}
-
-.text span:nth-child(1) {
-  animation-delay: 0;
 }
 
 .text span:nth-child(2) {
@@ -51,17 +47,12 @@ main {
     text-shadow: none;
   }
 
-  80% {
-    opacity: 0.3;
-    text-shadow: none;
-  }
-
-  90% {
+  10% {
     opacity: 1;
   }
 
-  100% {
+  12.5%, 100% {
     opacity: 1;
-    text-shadow: 0 0 5px #EAD7FB, 0 0 25px #9B5BF7;
+    text-shadow: 0 0 10px #EAD7FB, 0 0 35px #9B5BF7;
   }
 }
