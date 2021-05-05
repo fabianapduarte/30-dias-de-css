@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F2F2F2;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.base {
+  width: 330px;
+  height: 20px;
+
+  border-radius: 5px;
+  background-color: #151515;
+}
+
+.newtons-cradle {
+  border-top: 7px solid #8e9eab;
+  border-left: 7px solid #8e9eab;
+  border-right: 7px solid #8e9eab;
+  border-radius: 7px 7px 0 0;
+
+  width: 280px;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.newtons-cradle span {
+  position: relative;
+  transform-origin: top;
+  width: 1px;
+  height: 130px;
+
+  background-color: #8e9eab;
+}
+
+.newtons-cradle span:not(.newtons-cradle span:last-of-type) {
+  margin-right: 28px;
+}
+
+.newtons-cradle span::after {
+  content: '';
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #8e9eab;
+  background: linear-gradient(to top left, #8e9eab 0%, #eef2f3 100%);
+}
+
+.newtons-cradle span:first-of-type {
+  animation: swing-first-ball 1.5s ease-out infinite;
+}
+
+.newtons-cradle span:last-of-type {
+  animation: swing-last-ball 1.5s ease-out 0.75s infinite;
+}
+
+
+@keyframes swing-first-ball {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: rotate(25deg);
+  }
+
+  50%, 100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes swing-last-ball {
+  0% {
+    transform: none;
+  }
+  
+  25% {
+    transform: rotate(-25deg);
+  }
+
+  50%, 100% {
+    transform: rotate(0);
+  }
+}
