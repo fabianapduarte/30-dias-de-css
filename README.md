@@ -23,7 +23,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 06 - Efeito lightning text](#day6)
 * [Dia 07 - Preloader animado](#day7)
 * [Dia 08 - Coração batendo](#day8)
-* Dia 09 - Pendulo de Newton
+* [Dia 09 - Pêndulo de Newton](#day9)
 * Dia 10 - Animação texto alternando
 * Dia 11 - Botão com efeito hover
 * Dia 12 - Efeito de preenchimento ao passar o mouse
@@ -115,6 +115,15 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Animação com a função `scale()` da propriedade `transform` do CSS
+
+### <div id="day9">Pêndulo de Newton</div>
+
+![](./.github/day09.gif)
+
+**O que aprendi:**
+  * **`transform-origin`**
+  * Animação com a função `rotate()`
+  * `::after`
 
 ---
 Em construção...
