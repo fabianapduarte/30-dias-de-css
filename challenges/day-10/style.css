@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F2D0BD;
+}
+
+section {
+  width: 760px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  pointer-events: none;
+}
+
+h1 {
+  color: #F4F4F4;
+}
+
+h1 span {
+  color: #F27777;
+  margin-left: 8px;
+}
+
+h1 span::after {
+  content: "coding";
+  animation: change-text 3s linear infinite;
+}
+
+@keyframes change-text {
+  0% {
+    content: "coding";
+  }
+
+  33% {
+    content: "music";
+  }
+
+  66% {
+    content: "studying";
+  }
+}
+
+@media (max-width: 760px) {
+  section {
+    width: 90vw;
+    font-size: 2rem;
+  }
+}
