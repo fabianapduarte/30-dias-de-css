@@ -24,7 +24,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 07 - Preloader animado](#day7)
 * [Dia 08 - Coração batendo](#day8)
 * [Dia 09 - Pêndulo de Newton](#day9)
-* Dia 10 - Animação texto alternando
+* [Dia 10 - Animação com texto alternando](#day10)
 * Dia 11 - Botão com efeito hover
 * Dia 12 - Efeito de preenchimento ao passar o mouse
 * Dia 13 - Loading com efeito
@@ -124,6 +124,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * **`transform-origin`**
   * Animação com a função `rotate()`
   * `::after`
+
+### <div id="day10">Animação com texto alternando</div>
+
+![](./.github/day10.gif)
+
+**O que aprendi:**
+  * `::after`
+  * Propriedade `content`
 
 ---
 Em construção...
