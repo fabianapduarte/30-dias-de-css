@@ -4,7 +4,6 @@
 
 Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é construir 30 mini projetos, a partir do dia 27 de abril de 2021, utilizando HTML e CSS, para desenvolver as habilidades de codificação do front-end.
 
-
 [Link da ideia do projeto](https://github.com/MilenaCarecho/30diasDeCSS)
 
 ## 📋 Regras
@@ -25,7 +24,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 08 - Coração batendo](#day8)
 * [Dia 09 - Pêndulo de Newton](#day9)
 * [Dia 10 - Animação com texto alternando](#day10)
-* Dia 11 - Botão com efeito hover
+* [Dia 11 - Botão com efeito de preenchimento no hover](#day11)
 * Dia 12 - Efeito de preenchimento ao passar o mouse
 * Dia 13 - Loading com efeito
 * Dia 14 - Fundo de texto animado
@@ -132,6 +131,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * `::after`
   * Propriedade `content`
+
+### <div id="day11">Botão com efeito de preenchimento no hover</div>
+
+![](./.github/day11.gif)
+
+**O que aprendi:**
+  * Transição no `:hover` com variação de altura do elemento `::after` 
 
 ---
 Em construção...
