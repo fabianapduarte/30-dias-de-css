@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FAFAFA;
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+
+  width: 15rem;
+  height: 4rem;
+  border: 5px solid #037F8C;
+
+  line-height: 4rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+
+  color: #037F8C;
+  cursor: pointer;
+  background-color: transparent;
+  transition: color 0.5s;
+}
+
+.button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  width: 100%;
+  height: 0;
+  border-radius: 0 0 50% 50%;
+
+  background-color: #037F8C;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  color: #FAFAFA;
+}
+
+.button:hover::after {
+  height: 100%;
+  border-radius: 0;
+}
