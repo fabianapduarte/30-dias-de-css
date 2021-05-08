@@ -39,3 +39,9 @@ h1::after {
 h1:hover::after {
   width: 100%;
 }
+
+@media (max-width: 720px) {
+  h1 {
+    font-size: 2em;
+  }
+}
