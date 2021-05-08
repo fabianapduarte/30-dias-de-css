@@ -18,6 +18,7 @@ h1 {
   font-size: 4em;
   color: #5F84A1;
   position: relative;
+  cursor: pointer;
 }
 
 h1::after {
