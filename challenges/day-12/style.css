@@ -16,7 +16,7 @@ main {
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 4em;
-  color: #5F84A1;
+  color: #88C9F2;
   position: relative;
   cursor: pointer;
 }
@@ -32,7 +32,7 @@ h1::after {
 
   white-space: nowrap;
   overflow: hidden;
-  color: #1A4568;
+  color: #169EF2;
   transition: 1s ease-in-out;
 }
 
