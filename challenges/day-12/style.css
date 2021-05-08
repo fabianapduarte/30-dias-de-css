@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #FAFAFA;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  color: #5F84A1;
+  position: relative;
+}
+
+h1::after {
+  content: "Never stop learning";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  color: #1A4568;
+  transition: 1s ease-in-out;
+}
+
+h1:hover::after {
+  width: 100%;
+}
