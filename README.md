@@ -25,7 +25,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 09 - Pêndulo de Newton](#day9)
 * [Dia 10 - Animação com texto alternando](#day10)
 * [Dia 11 - Botão com efeito de preenchimento no hover](#day11)
-* Dia 12 - Efeito de preenchimento ao passar o mouse
+* [Dia 12 - Efeito de preenchimento do texto ao passar o mouse](#day12)
 * Dia 13 - Loading com efeito
 * Dia 14 - Fundo de texto animado
 * Dia 15 - Texto flutuante
@@ -138,6 +138,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Transição no `:hover` com variação de altura do elemento `::after` 
+
+### <div id="day12">Efeito de preenchimento do texto ao passar o mouse</div>
+
+![](./.github/day12.gif)
+
+**O que aprendi:**
+  * Transição no `:hover` com variação do tamanho do elemento `::after`
+  * Propriedade `white-space`
 
 ---
 Em construção...
