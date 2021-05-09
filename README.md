@@ -26,7 +26,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 10 - Animação com texto alternando](#day10)
 * [Dia 11 - Botão com efeito de preenchimento no hover](#day11)
 * [Dia 12 - Efeito de preenchimento do texto ao passar o mouse](#day12)
-* Dia 13 - Loading com efeito
+* [Dia 13 - Loader animado](#day13)
 * Dia 14 - Fundo de texto animado
 * Dia 15 - Texto flutuante
 * Dia 16 - Botão com efeito
@@ -146,6 +146,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Transição no `:hover` com variação do tamanho do elemento `::after`
   * Propriedade `white-space`
+
+### <div id="day13">Loader animado</div>
+
+![](./.github/day13.gif)
+
+**O que aprendi:**
+  * Animação com `translateX()` e `animation-delay`
 
 ---
 Em construção...
