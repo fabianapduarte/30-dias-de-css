@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F4F4F4;
+}
+
+.polaroid-container {
+  position: relative;
+  width: 350px;
+  height: 350px;
+
+  border-top: 20px solid #fff;
+  border-left: 20px solid #fff;
+  border-right: 20px solid #fff;
+  border-bottom: 50px solid #fff;
+
+  background-color: #004B8D;
+  box-shadow: 0 12px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.illustration {
+  height: 280px;
+}
+
+.illustration:hover .liquid-effect::before,
+.illustration:hover .liquid-effect::after {
+  top: -30px;
+}
+
+.sun {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 1;
+
+  width: 90px;
+  height: 90px;
+
+  border-radius: 50%;
+  background-color: #F2D95C;
+}
+
+.cloud {
+  position: absolute;
+  top: 65px;
+  z-index: 1;
+
+  width: 100px;
+  height: 40px;
+
+  border-radius: 30px;
+  background-color: #fff;
+
+  animation: slide 10s linear infinite;
+}
+
+.cloud::before {
+  content: '';
+
+  position: absolute;
+  top: -40%;
+  left: 35%;
+  z-index: 1;
+
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.liquid-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 310px;
+  height: 310px;
+}
+
+.liquid-effect::before,
+.liquid-effect::after {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -80%);
+
+  width: 300%;
+  height: 300%;
+  transition: 1s;
+}
+
+.liquid-effect::before {
+  border-radius: 45%;
+  background-color: rgba(122, 186, 242, 1);
+  animation: wave 10s linear infinite;
+}
+
+.liquid-effect::after {
+  border-radius: 40%;
+  background-color: rgba(122, 186, 242, 0.3);
+  animation: wave 15s linear infinite;
+}
+
+@keyframes wave {
+  to {
+    transform: translate(-50%, -80%) rotate(0deg);
+  }
+
+  from {
+    transform: translate(-50%, -80%) rotate(360deg);
+  }
+}
+
+@keyframes slide {
+  from {
+    left: -50%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
