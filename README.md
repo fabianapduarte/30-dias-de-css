@@ -28,7 +28,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 12 - Efeito de preenchimento do texto ao passar o mouse](#day12)
 * [Dia 13 - Loader animado](#day13)
 * [Dia 14 - Background de texto animado](#day14)
-* Dia 15 - Texto flutuante
+* [Dia 15 - Ilustração com efeito líquido](#day15)
 * Dia 16 - Botão com efeito
 * Dia 17 - Loader animado
 * Dia 18 - Texto esfumaçado
@@ -161,6 +161,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * `background-clip`
   * `background-position`
+
+### <div id="day15">Ilustração com efeito líquido</div>
+
+![](./.github/day15.gif)
+
+**O que aprendi:**
+  * Efeito líquido utilizando `::after`, `::before`, `animation` e `transform`
 
 ---
 Em construção...
