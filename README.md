@@ -29,7 +29,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 13 - Loader animado](#day13)
 * [Dia 14 - Background de texto animado](#day14)
 * [Dia 15 - Ilustração com efeito líquido](#day15)
-* Dia 16 - Botão com efeito
+* [Dia 16 - Botão animado com hover e transform](#day16)
 * Dia 17 - Loader animado
 * Dia 18 - Texto esfumaçado
 * Dia 19 - Efeitos de animação de fundo de partículas
@@ -168,6 +168,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Efeito líquido utilizando `::after`, `::before`, `animation` e `transform`
+
+### <div id="day16">Botão animado com hover e transform</div>
+
+![](./.github/day16.gif)
+
+**O que aprendi:**
+  * `hover`
+  * Propriedade `transform` e suas funções `scale()`, `rotate()` e `translate()`
 
 ---
 Em construção...
