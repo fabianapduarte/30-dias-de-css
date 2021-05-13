@@ -13,7 +13,7 @@ main {
   background-color: #f2f3f5;
 }
 
-.primary-button {
+.btn-primary {
   width: 70px;
   height: 70px;
 
@@ -25,7 +25,8 @@ main {
   transition: transform 0.4s ease;
 }
 
-.primary-button::after {
+/* adicionando ícone "plus" */
+.btn-primary::after {
   content: '\f067';
   font-weight: 900;
   font-family: 'Font Awesome 5 Free';
@@ -38,7 +39,8 @@ main {
   transform: translate(-50%, -50%);
 }
 
-.secondary-button {
+
+.btn-secondary {
   width: 35px;
   height: 35px;
 
@@ -51,77 +53,83 @@ main {
   transition: border-radius 0.3s ease, transform 0.2s ease;
 }
 
-.secondary-button i {
+.btn-secondary i {
   display: none;
   color: #D3B0FD;
 }
 
-.secondary-button:nth-child(1) {
+.btn-secondary:nth-child(1) {
   border-radius: 8px 0 0 0;
 }
 
-.secondary-button:nth-child(2) {
+.btn-secondary:nth-child(2) {
   border-radius: 0 8px 0 0;
 }
 
-.secondary-button:nth-child(3) {
+.btn-secondary:nth-child(3) {
   border-radius: 0 0 0 8px;
 }
 
-.secondary-button:nth-child(4) {
+.btn-secondary:nth-child(4) {
   border-radius: 0 0 8px 0;
 }
 
-.primary-button:hover {
+/* hover do botão principal */
+.btn-primary:hover {
   transform: rotate(45deg);
 }
 
-.primary-button:hover::after {
+.btn-primary:hover::after {
   content: '';
 }
 
-.primary-button:hover .secondary-button {
+.btn-primary:hover .btn-secondary {
   border-radius: 50%;
 }
 
-.primary-button:hover .secondary-button:nth-child(1) {
+
+/* aumentando tamanho dos botões secundários e determinando seu posicionamento */
+.btn-primary:hover .btn-secondary:nth-child(1) {
   transform: translate(-75%, -75%) scale(1.7);
 }
 
-.primary-button:hover .secondary-button:nth-child(2) {
+.btn-primary:hover .btn-secondary:nth-child(2) {
   transform: translate(75%, -75%) scale(1.7);
 }
 
-.primary-button:hover .secondary-button:nth-child(3) {
+.btn-primary:hover .btn-secondary:nth-child(3) {
   transform: translate(-75%, 75%) scale(1.7);
 }
 
-.primary-button:hover .secondary-button:nth-child(4) {
+.btn-primary:hover .btn-secondary:nth-child(4) {
   transform: translate(75%, 75%) scale(1.7);
 }
 
-.primary-button:hover .secondary-button:hover:nth-child(1) {
+
+/* diminuindo tamanho dos botões secundários quando estiverem no hover */
+.btn-primary:hover .btn-secondary:hover:nth-child(1) {
   transform: translate(-75%, -75%) scale(1.5);
 }
 
-.primary-button:hover .secondary-button:hover:nth-child(2) {
+.btn-primary:hover .btn-secondary:hover:nth-child(2) {
   transform: translate(75%, -75%) scale(1.5);
 }
 
-.primary-button:hover .secondary-button:hover:nth-child(3) {
+.btn-primary:hover .btn-secondary:hover:nth-child(3) {
   transform: translate(-75%, 75%) scale(1.5);
 }
 
-.primary-button:hover .secondary-button:hover:nth-child(4) {
+.btn-primary:hover .btn-secondary:hover:nth-child(4) {
   transform: translate(75%, 75%) scale(1.5);
 }
 
-.primary-button:hover .secondary-button i {
+
+.btn-primary:hover .btn-secondary i {
   display: inline;
   transform: rotate(-45deg);
   font-size: 0.75em;
 }
 
-.primary-button:hover .secondary-button:hover i {
+.btn-primary:hover .btn-secondary:hover i {
   color: #fff;
 }
