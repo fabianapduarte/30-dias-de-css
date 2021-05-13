@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #f2f3f5;
+}
+
+.primary-button {
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  transform-origin: 50% 50%;
+  transition: transform 0.4s ease;
+}
+
+.primary-button::after {
+  content: '\f067';
+  font-weight: 900;
+  font-family: 'Font Awesome 5 Free';
+  font-size: 1.5em;
+  color: #fff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.secondary-button {
+  width: 35px;
+  height: 35px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #5C3AFD;
+  cursor: pointer;
+  transition: border-radius 0.3s ease, transform 0.2s ease;
+}
+
+.secondary-button i {
+  display: none;
+  color: #D3B0FD;
+}
+
+.secondary-button:nth-child(1) {
+  border-radius: 8px 0 0 0;
+}
+
+.secondary-button:nth-child(2) {
+  border-radius: 0 8px 0 0;
+}
+
+.secondary-button:nth-child(3) {
+  border-radius: 0 0 0 8px;
+}
+
+.secondary-button:nth-child(4) {
+  border-radius: 0 0 8px 0;
+}
+
+.primary-button:hover {
+  transform: rotate(45deg);
+}
+
+.primary-button:hover::after {
+  content: '';
+}
+
+.primary-button:hover .secondary-button {
+  border-radius: 50%;
+}
+
+.primary-button:hover .secondary-button:nth-child(1) {
+  transform: translate(-75%, -75%) scale(1.7);
+}
+
+.primary-button:hover .secondary-button:nth-child(2) {
+  transform: translate(75%, -75%) scale(1.7);
+}
+
+.primary-button:hover .secondary-button:nth-child(3) {
+  transform: translate(-75%, 75%) scale(1.7);
+}
+
+.primary-button:hover .secondary-button:nth-child(4) {
+  transform: translate(75%, 75%) scale(1.7);
+}
+
+.primary-button:hover .secondary-button:hover:nth-child(1) {
+  transform: translate(-75%, -75%) scale(1.5);
+}
+
+.primary-button:hover .secondary-button:hover:nth-child(2) {
+  transform: translate(75%, -75%) scale(1.5);
+}
+
+.primary-button:hover .secondary-button:hover:nth-child(3) {
+  transform: translate(-75%, 75%) scale(1.5);
+}
+
+.primary-button:hover .secondary-button:hover:nth-child(4) {
+  transform: translate(75%, 75%) scale(1.5);
+}
+
+.primary-button:hover .secondary-button i {
+  display: inline;
+  transform: rotate(-45deg);
+  font-size: 0.75em;
+}
+
+.primary-button:hover .secondary-button:hover i {
+  color: #fff;
+}
