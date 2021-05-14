@@ -30,7 +30,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 14 - Background de texto animado](#day14)
 * [Dia 15 - Ilustração com efeito líquido](#day15)
 * [Dia 16 - Botão animado com hover e transform](#day16)
-* Dia 17 - Loader animado
+* [Dia 17 - Relógio com design de neomorfismo](#day17)
 * Dia 18 - Texto esfumaçado
 * Dia 19 - Efeitos de animação de fundo de partículas
 * Dia 20 - Botão com efeito
@@ -176,6 +176,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * `hover`
   * Propriedade `transform` e suas funções `scale()`, `rotate()` e `translate()`
+
+### <div id="day17">Relógio com design de neomorfismo</div>
+
+![](./.github/day17.gif)
+
+**O que aprendi:**
+  * Propriedade `box-shadow` com valores negativos
+  * Sombra interna (`inset`)
 
 ---
 Em construção...
