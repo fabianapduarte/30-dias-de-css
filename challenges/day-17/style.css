@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --clock-bg: #262C47;
+  --shade-light: #2c3352;
+  --shade-dark: #20253c;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--clock-bg);
+}
+
+.clock {
+  position: relative;
+  height: 350px;
+  width: 350px;
+
+  border-radius: 50%;
+  background-color: var(--clock-bg);
+  box-shadow: -15px -15px 30px rgba(59, 65, 89, 0.3),
+              15px 15px 30px var(--shade-dark),
+              inset -30px -30px 60px var(--shade-light),
+              inset 30px 30px 60px var(--shade-dark);
+}
+
+.circle {
+  padding: 1.1em;
+  width: fit-content;
+
+  position: absolute;
+  top: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border-radius: 50%;
+  background-color: var(--clock-bg);
+  box-shadow: inset 0 -5px 5px var(--shade-light),
+              inset 0 5px 5px var(--shade-dark);
+}
+
+.circle i {
+  color: #FE4F4E;
+  font-size: 1.5em;
+  transform: rotate(18deg);
+}
+
+.top, .bottom, .left, .right {
+  position: absolute;
+  width: 2px;
+  height: 15px;
+
+  background-color: #374268;
+}
+
+.top, .bottom {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top {
+  top: 30px;
+}
+
+.bottom {
+  bottom: 30px;
+}
+
+.left, .right {
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+}
+
+.left {
+  left: 30px;
+}
+
+.right {
+  right: 30px;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 10px;
+  height: 10px;
+  border: 2px solid #CBCFD2;
+
+  border-radius: 50%;
+  background-color: var(--clock-bg);
+  z-index: 3;
+}
+
+.pointer-second, .pointer-minute, .pointer-hour {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: center calc(100% - 12.5px);
+
+  border-radius: 5px;
+  animation: rotate linear infinite;
+}
+
+.pointer-second {
+  top: 37.5px;
+  width: 1.5px;
+  height: 150px;
+
+  background-color: #AC404A;
+  animation-duration: 10s;
+}
+
+.pointer-minute {
+  top: 57.5px;
+  width: 2px;
+  height: 130px;
+
+  background-color: #CBCFD2;
+  animation-duration: 30s;
+}
+
+.pointer-hour {
+  top: 87.5px;
+  width: 2px;
+  height: 100px;
+
+  background-color: #CBCFD2;
+  animation-duration: 60s;
+}
+
+@keyframes rotate {
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
