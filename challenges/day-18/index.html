@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Day 18</title>
+  </head>
+  <body>
+    <main class="light-mode">
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+      <div class="cloud"></div>
+
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </main>
+
+    <script>
+      function changeBackgroundColor() {
+        var currentTheme = document.querySelector("main").className;
+
+        if (currentTheme === "light-mode") {
+          document.querySelector("main").classList.remove("light-mode");
+          document.querySelector("main").classList.add("dark-mode");
+        }
+        else {
+          document.querySelector("main").classList.remove("dark-mode");
+          document.querySelector("main").classList.add("light-mode");
+        }
+      }
+
+      document.querySelector(".switch input").addEventListener("click", changeBackgroundColor);
+    </script>
+  </body>
+</html>
