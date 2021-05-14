@@ -31,7 +31,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 15 - Ilustração com efeito líquido](#day15)
 * [Dia 16 - Botão animado com hover e transform](#day16)
 * [Dia 17 - Relógio com design de neomorfismo](#day17)
-* Dia 18 - Texto esfumaçado
+* [Dia 18 - Switch para o modo claro/escuro](#day18)
 * Dia 19 - Efeitos de animação de fundo de partículas
 * Dia 20 - Botão com efeito
 * Dia 21 - Esferas quicando
@@ -184,6 +184,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Propriedade `box-shadow` com valores negativos
   * Sombra interna (`inset`)
+
+### <div id="day18">Switch para o modo claro/escuro</div>
+
+![](./.github/day18.gif)
+
+**O que aprendi:**
+  * Substituir estilização padrão do `input` do tipo checkbox
 
 ---
 Em construção...
