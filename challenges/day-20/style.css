@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e9f3f8;
+}
+
+.card {
+  height: 350px;
+  width: 500px;
+  margin: 3em;
+
+  position: relative;
+}
+
+.front, .back {
+  display: flex;
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out .6s;
+}
+
+.front {
+  background-image: url("https://images.unsplash.com/photo-1548192746-dd526f154ed9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.back {
+  flex-direction: column;
+  padding: 2em;
+
+  background-color: #fafafa;
+  color: #0D0D0D;
+
+  transform: rotateY(-180deg);
+}
+
+.back h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+.back p {
+  margin: 1.5em 0 1.2em;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+}
+
+.back button {
+  width: fit-content;
+  padding: 0.8em 2em;
+  border: none;
+  border-radius: 10px;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+
+  background-color: #2C87BF;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(0deg);
+}
