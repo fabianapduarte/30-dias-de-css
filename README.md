@@ -33,7 +33,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 17 - Relógio com design de neomorfismo](#day17)
 * [Dia 18 - Switch para o modo claro/escuro](#day18)
 * [Dia 19 - Chat de mensagens com indicador de que alguém está digitando](#day19)
-* Dia 20 - Botão com efeito
+* [Dia 20 - Virar cartão](#day20)
 * Dia 21 - Esferas quicando
 * Dia 22 - Ícones com efeito
 * Dia 23 - Botão com efeito hover
@@ -199,6 +199,15 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Animação com `scale()` do `transform`
   * Referência unicode de emojis no HTML
+
+### <div id="day20">Virar cartão</div>
+
+![](./.github/day20.gif)
+
+**O que aprendi:**
+  * `rotateY()`
+  * `transform-style`
+  * `backface-visibility`
 
 ---
 Em construção...
