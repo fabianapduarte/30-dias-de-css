@@ -34,7 +34,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 18 - Switch para o modo claro/escuro](#day18)
 * [Dia 19 - Chat de mensagens com indicador de que alguém está digitando](#day19)
 * [Dia 20 - Virar cartão](#day20)
-* Dia 21 - Esferas quicando
+* [Dia 21 - Loader animado](#day21)
 * Dia 22 - Ícones com efeito
 * Dia 23 - Botão com efeito hover
 * Dia 24 - Preloader animado
@@ -208,6 +208,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * `rotateY()`
   * `transform-style`
   * `backface-visibility`
+
+### <div id="day21">Loader animado</div>
+
+![](./.github/day21.gif)
+
+**O que aprendi:**
+  * `translateY()`
+  * Animação com variação de tamanho de elementos
 
 ---
 Em construção...
