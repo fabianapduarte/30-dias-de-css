@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #1B222C;
+  overflow: hidden;
+}
+
+.container::after, .container::before {
+  content: "";
+  position: absolute;
+  
+  border-radius: 50%;
+  background-image: linear-gradient(to top right, #FF603F 25%, #C1358B 100%);
+}
+
+.container::before {
+  width: 170px;
+  height: 170px;
+
+  bottom: 26%;
+  right: 58.5%;
+}
+
+.container::after {
+  width: 300px;
+  height: 300px;
+
+  top: 22.5%;
+  left: 50%;
+}
+
+.card {
+  height: 300px;
+  width: 500px;
+  border-radius: 20px;
+
+  position: relative;
+  z-index: 2;
+}
+
+.card::before {
+  content: "";
+
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px);
+}
+
+.card img {
+  position: absolute;
+  top: 8px;
+  left: 48px;
+
+  width: 80px;
+}
+
+.info-card {
+  position: absolute;
+  left: 48px;
+  bottom: 32px;
+
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.info-card .number {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.info-card .number-card {
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+.info-card div {
+  margin: 8px 0 24px;
+
+  display: grid;
+  grid-template-columns: 1fr 32px 1fr;
+  align-items: center;
+}
+
+.info-card small:nth-child(1) {
+  font-size: 0.7em;
+}
+
+.info-card small:nth-child(2) {
+  font-size: 0.3em;
+  letter-spacing: 1px;
+}
+
+.info-card .text {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+.info-card .name {
+  font-size: 0.75em;
+  letter-spacing: 1px;
+}
