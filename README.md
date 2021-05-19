@@ -104,6 +104,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 ![](./.github/day07.gif)
 
+[Ideia original](https://codepen.io/akshaycodes/pen/OaXJgZ?editors=0100)
+
 **O que aprendi:**
   * Animação com `::before` e delay
   * Porcentagem no `@keyframes`
@@ -151,6 +153,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 ![](./.github/day13.gif)
 
+[Ideia original](https://codepen.io/AsLittleDesign/pen/ZbVVwa)
+
 **O que aprendi:**
   * Animação com `translateX()` e `animation-delay`
 
@@ -173,6 +177,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 ![](./.github/day16.gif)
 
+[Ideia original](https://dribbble.com/shots/5419580-Add-Button-hover-animation)
+
 **O que aprendi:**
   * `hover`
   * Propriedade `transform` e suas funções `scale()`, `rotate()` e `translate()`
@@ -181,6 +187,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 ![](./.github/day17.gif)
 
+[Ideia original](https://dribbble.com/shots/14581110-Soft-UI-Clock)
+
 **O que aprendi:**
   * Propriedade `box-shadow` com valores negativos
   * Sombra interna (`inset`)
@@ -188,6 +196,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 ### <div id="day18">Switch para o modo claro/escuro</div>
 
 ![](./.github/day18.gif)
+
+[Ideia base para a estilização do switch](https://dribbble.com/shots/7153948-Daily-UI-challenge-015-On-Off-Switch)
 
 **O que aprendi:**
   * Substituir estilização padrão do `input` do tipo checkbox
@@ -220,6 +230,8 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 ### <div id="day22">Card com efeito vidro</div>
 
 ![](./.github/day22.png)
+
+[Ideia original](https://dribbble.com/shots/14650273-Glass-Card-Design)
 
 **O que aprendi:**
   * Função `blur()` da propriedade `backdrop-filter`
