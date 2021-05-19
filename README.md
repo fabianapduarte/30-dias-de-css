@@ -35,7 +35,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 19 - Chat de mensagens com indicador de que alguém está digitando](#day19)
 * [Dia 20 - Virar cartão](#day20)
 * [Dia 21 - Loader animado](#day21)
-* Dia 22 - Ícones com efeito
+* [Dia 22 - Card com efeito vidro](#day22)
 * Dia 23 - Botão com efeito hover
 * Dia 24 - Preloader animado
 * Dia 25 - Checkbox animado
@@ -216,6 +216,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * `translateY()`
   * Animação com variação de tamanho de elementos
+
+### <div id="day22">Card com efeito vidro</div>
+
+![](./.github/day22.png)
+
+**O que aprendi:**
+  * Função `blur()` da propriedade `backdrop-filter`
+  * Propriedade `align-items` para o display grid
 
 ---
 Em construção...
