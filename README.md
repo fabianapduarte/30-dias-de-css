@@ -36,7 +36,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 20 - Virar cartão](#day20)
 * [Dia 21 - Loader animado](#day21)
 * [Dia 22 - Card com efeito vidro](#day22)
-* Dia 23 - Botão com efeito hover
+* [Dia 23 - Animação do sistema solar](#day23)
 * Dia 24 - Preloader animado
 * Dia 25 - Checkbox animado
 * Dia 26 - Loading com efeito
@@ -236,6 +236,15 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Função `blur()` da propriedade `backdrop-filter`
   * Propriedade `align-items` para o display grid
+
+### <div id="day23">Animação do sistema solar</div>
+
+![](./.github/day23.gif)
+
+**O que aprendi:**
+  * Animação com diferentes durações para cada elemento
+  * `rotate(360deg)`
+  * Posicionamento
 
 ---
 Em construção...
