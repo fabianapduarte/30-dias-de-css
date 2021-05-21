@@ -37,7 +37,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 21 - Loader animado](#day21)
 * [Dia 22 - Card com efeito vidro](#day22)
 * [Dia 23 - Animação do sistema solar](#day23)
-* Dia 24 - Preloader animado
+* [Dia 24 - Preloader](#day24)
 * Dia 25 - Checkbox animado
 * Dia 26 - Loading com efeito
 * Dia 27 - Efeito pulsar
@@ -245,6 +245,15 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * Animação com diferentes durações para cada elemento
   * `rotate(360deg)`
   * Posicionamento
+
+### <div id="day24">Preloader</div>
+
+![](./.github/day24.gif)
+
+[Ideia original](https://codepen.io/Volorf/pen/KbbRbZ)
+
+**O que aprendi:**
+  * Animações com `@keyframes`
 
 ---
 Em construção...
