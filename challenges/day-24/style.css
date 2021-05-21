@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+  background-color: #f2f3f5;
+}
+
+.loader {
+  width: 110px;
+  height: 110px;
+
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+
+  border-radius: 10px;
+  background-color: #ff9a9e;
+}
+
+.square:nth-child(1) {
+  width: 100%;
+
+  top: 60px;
+  left: 0;
+
+  animation: square-one 4s ease-in-out infinite;
+}
+
+.square:nth-child(2) {
+  top: 0;
+  left: 0;
+
+  animation: square-two 4s ease-in-out infinite;
+}
+
+.square:nth-child(3) {
+  top: 0;
+  left: 60px;
+
+  animation: square-three 4s ease-in-out infinite;
+}
+
+@keyframes square-one {
+  0% {
+    width: 100%;
+    height: 50px;
+
+    top: 60px;
+    left: 0;
+  }
+
+  12.5%, 62.5% {
+    width: 50px;
+    height: 50px;
+
+    top: 60px;
+    left: 0;
+  }
+
+  75% {
+    width: 50px;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+  }
+
+  87.5%, 100% {
+    width: 50px;
+    height: 50px;
+
+    top: 0;
+    left: 0;
+  }
+}
+
+@keyframes square-two {
+  0%, 37.5% {
+    width: 50px;
+    height: 50px;
+
+    top: 0;
+    left: 0;
+  }
+
+  50% {
+    width: 100%;
+    height: 50px;
+
+    top: 0;
+    left: 0;
+  }
+
+  62.5%, 100% {
+    width: 50px;
+    height: 50px;
+
+    top: 0;
+    left: 60px;
+  }
+}
+
+@keyframes square-three {
+  0%, 12.5% {
+    width: 50px;
+    height: 50px;
+
+    top: 0;
+    left: 60px;
+  }
+
+  25% {
+    width: 50px;
+    height: 100%;
+
+    top: 0;
+    left: 60px;
+  }
+
+  37.5%, 87.5% {
+    width: 50px;
+    height: 50px;
+
+    top: 60px;
+    left: 60px;
+  }
+
+  100% {
+    width: 100%;
+    height: 50px;
+
+    top: 60px;
+    left: 0;
+  }
+}
