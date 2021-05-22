@@ -38,7 +38,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 22 - Card com efeito vidro](#day22)
 * [Dia 23 - Animação do sistema solar](#day23)
 * [Dia 24 - Preloader](#day24)
-* Dia 25 - Checkbox animado
+* [Dia 25 - To-do list](#day25)
 * Dia 26 - Loading com efeito
 * Dia 27 - Efeito pulsar
 * Dia 28 - Cor do background mudando
@@ -254,6 +254,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Animações com `@keyframes`
+
+### <div id="day25">To-do list</div>
+
+![](./.github/day25.gif)
+
+**O que aprendi:**
+  * Alterar estilização padrão do checkbox com pseudo-elementos e `:checked`
 
 ---
 Em construção...
