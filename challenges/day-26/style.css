@@ -60,9 +60,10 @@ body {
 
 .button label::after {
   content: "Done";
-  
-  background-color: #5972d9;
+
   z-index: 2;
+  background-color: #5972d9;
+  cursor: default;
 }
 
 .button .progress {
