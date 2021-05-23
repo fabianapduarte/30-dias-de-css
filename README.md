@@ -39,7 +39,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 23 - Animação do sistema solar](#day23)
 * [Dia 24 - Preloader](#day24)
 * [Dia 25 - To-do list](#day25)
-* Dia 26 - Loading com efeito
+* [Dia 26 - Botão de download animado](#day26)
 * Dia 27 - Efeito pulsar
 * Dia 28 - Cor do background mudando
 * Dia 29 - Menu responsivo com Media Queries
@@ -261,6 +261,17 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Alterar estilização padrão do checkbox com pseudo-elementos e `:checked`
+
+### <div id="day26">Botão de download animado</div>
+
+![](./.github/day26.gif)
+
+[Ideia original](https://dribbble.com/shots/14911343-Download-Button-Micro-Interaction-Shot)
+
+**O que aprendi:**
+  * Posicionamento com valor negativo
+  * Animação com pseudo-elementos
+  * Barra de progresso
 
 ---
 Em construção...
