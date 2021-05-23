@@ -49,7 +49,6 @@ body {
 
   color: #fff;
   text-align: center;
-  transition: transform .4s ease;
 }
 
 .button label::before {
@@ -79,7 +78,7 @@ body {
 }
 
 .button input[type="radio"]:checked + label::before {
-  transform: translateY(100%);
+  animation: slide-down .4s ease forwards;
 }
 
 .button input[type="radio"]:checked + label + .progress {
@@ -87,10 +86,10 @@ body {
 }
 
 .button input[type="radio"]:checked + label::after {
-  animation: slide-done .4s ease 2.2s forwards;
+  animation: slide-down .4s ease 2.2s forwards;
 }
 
-@keyframes slide-done {
+@keyframes slide-down {
   to {
     transform: translateY(100%);
   }
