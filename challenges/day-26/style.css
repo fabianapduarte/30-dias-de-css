@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #e4e6ea;
+}
+
+.button {
+  position: relative;
+  display: flex;
+  user-select: none;
+  overflow: hidden;
+
+  border-radius: 15px;
+}
+
+.button input[type="radio"] {
+  display: none;
+}
+
+.button label {
+  padding: 0.75em 3em;
+  
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+
+  background-color: #fff;
+  color: #212121;
+  cursor: pointer;
+}
+
+.button label::before,
+.button label::after {
+  position: absolute;
+  top: -100%;
+  left: -5px;
+
+  width: 135px;
+  padding: 0.75em 3em;
+
+  color: #fff;
+  text-align: center;
+  transition: transform .4s ease;
+}
+
+.button label::before {
+  content: "Loading";
+
+  background-color: #099176;
+}
+
+.button label::after {
+  content: "Done";
+  
+  background-color: #5972d9;
+  z-index: 2;
+}
+
+.button .progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  height: 5px;
+  width: 0;
+
+  background-color: #24e0bb;
+  transition: width 1.5s ease-in-out .5s;
+}
+
+.button input[type="radio"]:checked + label::before {
+  transform: translateY(100%);
+}
+
+.button input[type="radio"]:checked + label + .progress {
+  width: 100%;
+}
+
+.button input[type="radio"]:checked + label::after {
+  animation: slide-done .4s ease 2.2s forwards;
+}
+
+@keyframes slide-done {
+  to {
+    transform: translateY(100%);
+  }
+}
