@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(to bottom right, #68e0cf, #209cff,  #f093fb, #f5576c);
+  background-size: 350% 350%;
+  animation: change-background 15s linear infinite alternate;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4em;
+  color: #fafafa;
+}
+
+@keyframes change-background {
+  from {
+    background-position: 0% 50%;
+  }
+
+  to {
+    background-position: 100% 100%;
+  }
+}
