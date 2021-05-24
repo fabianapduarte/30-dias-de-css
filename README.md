@@ -40,7 +40,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 24 - Preloader](#day24)
 * [Dia 25 - To-do list](#day25)
 * [Dia 26 - Botão de download animado](#day26)
-* Dia 27 - Efeito pulsar
+* [Dia 27 - Animação para alterar cor do gradiente](#day27)
 * Dia 28 - Cor do background mudando
 * Dia 29 - Menu responsivo com Media Queries
 * Dia 30 - Fogos de artificio
@@ -272,6 +272,14 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
   * Posicionamento com valor negativo
   * Animação com pseudo-elementos
   * Barra de progresso
+
+### <div id="day27">Animação para alterar cor do gradiente</div>
+
+![](./.github/day27.gif)
+
+**O que aprendi:**
+  * `background-size`
+  * Animação com `background-position`
 
 ---
 Em construção...
