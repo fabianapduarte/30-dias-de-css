@@ -42,7 +42,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 26 - Botão de download animado](#day26)
 * [Dia 27 - Animação para alterar cor do gradiente](#day27)
 * [Dia 28 - Animação da vela queimando](#day28)
-* Dia 29 - Menu responsivo com Media Queries
+* [Dia 29 - Menu responsivo](#day29)
 * Dia 30 - Fogos de artificio
 
 ### <div id="day1">Ícone de mídia social em camadas</div>
@@ -287,6 +287,13 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 
 **O que aprendi:**
   * Animação com `border-radius` e `scale()`
+
+### <div id="day29">Menu responsivo</div>
+
+![](./.github/day29.gif)
+
+**O que aprendi:**
+  * Media queries
 
 ---
 Em construção...
