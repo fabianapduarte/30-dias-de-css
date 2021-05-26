@@ -43,7 +43,7 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 * [Dia 27 - Animação para alterar cor do gradiente](#day27)
 * [Dia 28 - Animação da vela queimando](#day28)
 * [Dia 29 - Menu responsivo](#day29)
-* Dia 30 - Fogos de artificio
+* [Dia 30 - Animação de fogos de artifício](#day30)
 
 ### <div id="day1">Ícone de mídia social em camadas</div>
 
@@ -295,5 +295,12 @@ Repositório destinado aos projetos do desafio de 30 dias de CSS. O objetivo é 
 **O que aprendi:**
   * Media queries
 
+### <div id="day30">Animação de fogos de artifício</div>
+
+![](./.github/day30.gif)
+
+**O que aprendi:**
+  * Mais de um valor para o `box-shadow`
+
 ---
-Em construção...
+Feito com ❤ por Fabiana Pereira
